@@ -1,0 +1,40 @@
+body{
+    background-image: url(background.jpeg);
+}
+
+.container{
+    width: 600px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.topPortion{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottomPortion{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.insertedPart{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+.containerStyle{
+    text-align: left;
+}
+
+@media(min-width: 400px){
+    .container{
+        width: 50%;
+    }
+    .insertedPart{
+        width: 50%;
+    }
+}
