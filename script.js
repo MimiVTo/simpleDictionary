@@ -159,7 +159,7 @@ var dictionary = {
         partOfSpeech: "Noun",
         definitions: "Coding Definition: A programming language that allows developers to add interactivity to what they're developing." + "\nNormal Definition: Object oriented computer programming language used to make interactive effects."
     }
-    
+
 }
 
 //FUNCTION 
@@ -213,7 +213,7 @@ function search(){
 
         //Append the text to let the user know that it isn't available in the dictionary
         containedItems.appendChild(wordUnavailable);
-        wordUnavailable.innerText = "Word is Unavailable!"
+        wordUnavailable.innerText = "Word is Unavailable!";
     }
 
 }
